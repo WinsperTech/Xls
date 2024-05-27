@@ -43,7 +43,7 @@ type : help,
 
 
 
-  global.BUTTONS = process.env.BUTTONS || "1"
+  global.BUTTONS = process.env.BUTTONS || "0"
     const os = require('os')
     let menus = false
     const moment = require("moment-timezone")
@@ -90,10 +90,10 @@ type : help,
   
   
     global.caption =process.env.CAPTION ||  global.caption || Config.caption  || ""
-    global.ownername = global.ownername || Config.ownername || "Suhail"
-    global.botname = global.botname || Config.botname || "Suhail-MD"
+    global.ownername = global.ownername || Config.ownername || "Willis"
+    global.botname = global.botname || Config.botname || "WinsperTech"
     global.menu =  process.env.MENU || global.menu || Config.menu || ""
-    global.HANDLERS = process.env.HANDLERS || Config.HANDLERS  || prefix || ""
+    global.HANDLERS = process.env.HANDLERS || global.THUMB_IMAGE = process.env.THUMB_IMAGE || Config.HANDLERS  || prefix || ""
     global.WORKTYPE = process.env.MODE ||   global.WORKTYPE  || Config.WORKTYPE  || "" || ""
     global.menu_fancy = process.env.MENU_FANCY || global.menu_fancy  || ""
     global.ui_Cache = {};
